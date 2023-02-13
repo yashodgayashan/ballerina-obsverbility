@@ -1,6 +1,6 @@
 [package]
 org = "yashodperera"
-name = "testObservation_0.1.5"
+name = "testObservation"
 version = "0.1.0"
 distribution = "2201.1.1"
 
