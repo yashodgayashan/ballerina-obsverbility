@@ -14,4 +14,13 @@ service / on new http:Listener(9090) {
             return "Hi there"; 
         }
     }
+
+     resource function get greeting2() returns string|error {
+
+        if isEnable {
+            return "Hello there"; 
+        } else {
+            return "Hi there"; 
+        }
+    }
 }
